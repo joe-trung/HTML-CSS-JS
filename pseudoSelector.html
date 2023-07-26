@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whatever</title>
+    <style>
+        #chat::before{
+            content: "";
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            background-color: green;
+            border: none;
+            border-radius: 50px;
+        }
+
+        #chat::after{
+            content: "New message";
+            background-color: gray;
+            color: black;
+            border: none;
+            border-radius: 5px;
+            margin-left: 9px;
+            padding: 2px;
+        }
+        #newCss::first-letter{
+            color: yellow;
+            background-color: blue;
+        }
+
+    </style>
+</head>
+<body>
+
+    <p id="newCss">Loren Ipsum</p>
+    <p id="chat">Let's chat</p>
+    
+</body>
+</html>
