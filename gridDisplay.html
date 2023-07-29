@@ -13,13 +13,12 @@
             background-color: lightblue;
             padding: 10px;
             display: grid;
-            grid-template-columns: repeat(3,1fr);
-            grid-auto-rows: minmax(200px,auto);
+            grid-template-columns: repeat(3,100px);
             gap: 20px;
-            grid-template-areas: 
-            "header header header"
-            "sidebar content content"
-            "sidebar content content";
+            height: 50vh;
+            justify-content: end;
+            align-items: start;
+
         }
         .grid-item{
             background-color: beige;
@@ -28,15 +27,10 @@
             font-size: 30px;
             text-align: center;
         }
-        .item-1{
-            grid-area: header;
+        .grid-item:hover{
+            background-color: yellow;
         }
-        .item-2{
-            grid-area: sidebar;
-        }
-        .item-3 {
-            grid-area: content;
-        }
+
 
     </style>
 </head>

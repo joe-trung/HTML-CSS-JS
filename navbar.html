@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .active{
+            background-color: green;
+            columns: black;
+
+        }
+        ul{
+            list-style-type: none;
+            margin: 0px;
+            padding: 0px;
+            overflow: hidden;
+            background-color: black;
+            position: fixed;
+            top:0px;
+            width: 100%;
+
+        }
+        li{
+            float: left;
+
+        }
+        li a{
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+
+        }
+        li a:hover{
+            background-color: gray;
+        }
+        .random{
+            background-color: aquamarine;
+            height: 300px;
+            color: black;
+            border: 2px solid brown;
+        }
+        .random:nth-child(1){
+            margin-top: 90px;
+        }
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">About</a></li>
+    </ul>
+    <div class="random"> Some random data</div>
+    <div class="random"> Some random data</div>
+    <div class="random"> Some random data</div>
+    <div class="random"> Some random data</div>
+</body>
+</html>
